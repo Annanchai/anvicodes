@@ -1,0 +1,53 @@
+@import "./theme";
+
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+    
+}
+
+.logoContainer{
+    margin-right: 280px;
+    p{
+        font-family: 'good-times-regular', sans-serif;
+        color: white;
+    }
+}
+
+.phoneNumberContainer{
+    display: flex;
+    align-items: center;
+
+    p{
+        color: $tertiaryColour;
+    }
+}
+
+.callIcon{
+    font-size: 23px;
+    margin-right: 10px;
+    color: $primaryColor;
+}
+
+.navMenuContainer{
+    
+    ul{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        
+    }
+
+    li{
+        margin-left: 50px;
+        color: $tertiaryColour;
+    }
+
+    .active{
+        background-color: $primaryColor;
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+}
