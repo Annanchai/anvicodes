@@ -7,6 +7,7 @@ import data from "../lotties/development.json";
 import responsive from "../images/responsive.svg";
 import section2 from "../images/section2.png";
 import webdesign from "../images/webdesign.svg";
+import logodesign from "../images/logodesign.svg";
 
 export default function HomePage() {
   const defaultOptions = {
@@ -75,12 +76,33 @@ export default function HomePage() {
           <div className="service1">
             <div className="content">
               <h3>Web Design</h3>
+              <h3>And Development</h3>
+              <p>
+                Right designs which are well planned and creatively conceived
+                websites are an integral part of the success of your brand.
+                AnviCodes is the right place where we build for you beautiful
+                and interactive custom websites that engage your visitors.
+              </p>
             </div>
             <div className="imageContainer">
               <img className="webdesign" src={webdesign} alt="webdesign" />
             </div>
           </div>
-          <div className="service2"></div>
+          <div className="service2">
+            <div className="content">
+              <h3>Custom</h3>
+              <h3>Logo Design</h3>
+              <p>
+                Right designs which are well planned and creatively conceived
+                websites are an integral part of the success of your brand.
+                AnviCodes is the right place where we build for you beautiful
+                and interactive custom websites that engage your visitors.
+              </p>
+            </div>
+            <div className="imageContainer">
+              <img className="logodesign" src={logodesign} alt="webdesign" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
